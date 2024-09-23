@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: #dfc5b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+main {
+    background-color: #ffefe8;
+    width: 700px;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.flor1 {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: -160px;
+    transform: rotate(95deg);
+}
+
+.flor2 {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(90deg);
+    left:-59px;
+}
+
+h1 {
+    color: grey;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive; 
+    align-items: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+   
+
+}
+
+h2 {
+    color: grey;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;
+    ;
+    align-items: flex-start;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+h4{
+    color: grey;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;
+    ;
+    align-items: flex-start;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.Mujeres{
+    color: grey;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;
+    ;
+    align-items: flex-start;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.Hombres{
+    color: grey;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;
+    ;
+    align-items: flex-start;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
